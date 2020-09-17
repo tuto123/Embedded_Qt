@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /usr/bin/setqt5env
+
+./4418_home_security -platform linuxfb

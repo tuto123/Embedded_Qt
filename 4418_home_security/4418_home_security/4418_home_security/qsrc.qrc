@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rec/img/home_ctrl.png</file>
+        <file>rec/img/home.png</file>
+        <file>rec/img/face_reg.png</file>
+        <file>rec/img/env_mon.png</file>
+        <file>rec/img/face_ok.png</file>
+        <file>rec/img/face_fail.png</file>
+        <file>rec/img/face_decting.png</file>
+        <file>rec/img/weather.png</file>
+        <file>rec/img/home_background.png</file>
+        <file>rec/img/light.png</file>
+        <file>rec/img/humidity.png</file>
+        <file>rec/img/gas.png</file>
+        <file>rec/img/fan.png</file>
+        <file>rec/img/door.png</file>
+        <file>rec/img/open.png</file>
+        <file>rec/img/close.png</file>
+        <file>rec/xml/haarcascade_frontalface_default.xml</file>
+        <file>rec/xml/haarcascade_frontalface_alt.xml</file>
+        <file>rec/img/light_on.png</file>
+        <file>rec/img/light_off.png</file>
+        <file>rec/img/face_rec_background.png</file>
+        <file>rec/img/sunny.png</file>
+        <file>rec/img/snow.png</file>
+        <file>rec/img/rain.png</file>
+        <file>rec/img/fan_on.png</file>
+        <file>rec/img/door_close.png</file>
+        <file>rec/img/env_moni_background.png</file>
+        <file>rec/img/home_ctrl_background.png</file>
+        <file>rec/img/wind.png</file>
+        <file>rec/img/weather_type.png</file>
+        <file>rec/img/city.png</file>
+        <file>rec/img/temperture_weather.png</file>
+        <file>rec/img/temperture.png</file>
+        <file>rec/img/advice.png</file>
+        <file>rec/img/big_light_on.png</file>
+        <file>rec/img/big_light_off.png</file>
+        <file>rec/img/body_on.png</file>
+        <file>rec/img/body_off.png</file>
+    </qresource>
+</RCC>
