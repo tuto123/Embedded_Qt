@@ -55,7 +55,7 @@ void EnvironmentalMonitor::Delay_MSec(unsigned int msec)
 
 void EnvironmentalMonitor::connect_to_server()
 {
-    client = new QMQTT::Client(QHostAddress("112.74.105.185"), port);
+    client = new QMQTT::Client(QHostAddress("localhost"), port);
     client->setClientId(client_id);
     client->setUsername(user);
     client->setPassword(password.toUtf8());

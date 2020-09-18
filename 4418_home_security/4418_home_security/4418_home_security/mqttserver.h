@@ -22,11 +22,11 @@ public:
 
     QMQTT::Client *client;
 
-    QHostAddress ip_address = QHostAddress("112.74.105.185");
+    QHostAddress ip_address = QHostAddress("localhost");
     QString port = "1883";
     QString client_id = "03";
     QString user = "arm_4418";
-    QString password = "123";
+    QString password = "123456";
 
     QString received_message;
 

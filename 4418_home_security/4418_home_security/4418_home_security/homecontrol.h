@@ -68,7 +68,7 @@ private:
     quint16 port = 1883;
     QString client_id = "control";
     QString user = "arm_4418";
-    QString password = "123";
+    QString password = "123456";
     QString topic = "/light/deviceIn";
 
 

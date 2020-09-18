@@ -85,7 +85,7 @@ void HomeControl::on_home_pushButton_clicked()
 
 void HomeControl::connect_to_server()
 {
-    client = new QMQTT::Client(QHostAddress("112.74.105.185"), port);
+    client = new QMQTT::Client(QHostAddress("localhost"), port);
     client->setClientId(client_id);
     client->setUsername(user);
     client->setPassword(password.toUtf8());
@@ -101,7 +101,7 @@ void HomeControl::connect_to_server()
 
     Delay_MSec(30);
 
-    //client->subscribe(topic, 0);
+    client->subscribe(topic, 0);
     qDebug() << client->isConnectedToHost() << "connected successful!";
 
     connect(client, SIGNAL(subscribed(const QString &)), this, SLOT(onSubscribed(const QString &)));

@@ -128,7 +128,7 @@ int video_device::camera_v4l2_setting(int *dev, unsigned int width, unsigned int
         return -1;
     }
 
-    if((-1 == GetFreeRam(&freeram)) || freeram<1843200*nbufs+4194304)
+    if((-1 == GetFreeRam(&freeram)) || /*freeram<1843200*nbufs+4194304*/)
     {
         qDebug("free memory isn't enough(%d)\n",freeram);
         close(*dev);
